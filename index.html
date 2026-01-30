@@ -14,5 +14,29 @@
         </div>
         </nav>
         </header>
+        <main>
+            <section style="width: 100%; height: 100%;">
+                <img class="mySlides" src="intense-lightning-storm-stockcake.webp" style="height: 100%; width: 100%;">
+                <img class="mySlides" src="istockphoto-1317323736-612x612.webp" style="height: 100%; width: 100%;">
+                <img class="mySlides" src="pngtree-fresh-green-nature-blur-web-banner-image_16745501.jpg" style="height: 100%; width: 100%;">
+                <img class="mySlides" src="360_F_903256253_MZlGTM8wPNZuQ9jE8kogIYicGL2L0QMk.jpg" style="height: 100%; width: 100%;">
+                <img class="mySlides" src="Soothing-nature-backgrounds-2-1024x684.jpg" style="height: 100%; width: 100%;">
+            </section>
+        </main>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 5000);
+            }
+        </script>
     </body>
 </html>
