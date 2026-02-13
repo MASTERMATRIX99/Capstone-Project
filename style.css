@@ -90,3 +90,21 @@ nav {
 footer {
     margin-top: 50px;
 }
+.contact-page {
+    background-color: black;
+}
+.contact-link {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.contact-img {
+    width: 80px;
+    height: 80px;
+}
